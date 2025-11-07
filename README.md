@@ -12,11 +12,40 @@
 
 ## スクリーンショット / ツール画像
 
-![ツール画像](./path/to/your/tool-image.png)  
+![ツール画像](./image/top-image.png)  
 *上記パスを実際の画像ファイルのパスに置き換えてください。*
 
 ## インストール方法
 
 1. リポジトリをクローンします：
    ```bash
-   git clone https://github.com/your-username/instagram-story-auto-poster.git
+   git clone https://github.com/your-username/instagram-story-upload.git
+2. プロジェクトディレクトリに移動：
+   ```bash
+   cd instagram-story-auto-poster
+3. 依存パッケージをインストール
+   ```bash
+   pip install -r requirements.txt
+   
+## 使い方
+
+1. アプリケーションを起動：
+   ```bash
+   python main.py
+2. UIから以下を操作：
+
+  Instagramアカウントの追加
+
+  既存アカウントの編集・削除
+
+  ストーリーのアップロードやリンク設定
+
+3. 設定に従い、アプリが自動的にストーリーを投稿します。
+
+## 貢献について
+
+ご興味のある方は、リポジトリをフォークし、プルリクエストを送っていただければ幸いです。
+
+## ライセンス
+
+本プロジェクトはMITライセンスのもとで公開されています。
