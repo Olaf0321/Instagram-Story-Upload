@@ -21,7 +21,7 @@
    git clone https://github.com/your-username/instagram-story-upload.git
 2. プロジェクトディレクトリに移動：
    ```bash
-   cd instagram-story-auto-poster
+   cd instagram-story-upload
 3. 依存パッケージをインストール
    ```bash
    pip install -r requirements.txt
